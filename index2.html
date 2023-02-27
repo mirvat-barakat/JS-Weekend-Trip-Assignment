@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section1 color1">
+        <h1>Merge Sort</h1>
+        <button onclick="getNumbers()">Add 10 numbers</button>
+        <button onclick="sortNumbers()">Sort</button>
+        <div id="output"></div>
+    </section>
+    <section class=" section1 color2">
+        <h1>Check if palindrome?</h1>
+        <div class="container">
+            <label >Enter a string:</label>
+            <input type="text" id="input" />
+            <button onclick="checkPalindrome()">Check</button>
+            <p id="result"></p>
+        </div>
+    </section>
+    <section class="section1 color3">
+        <h1>Check you year of birth if prime or not?</h1>
+        <form id="age-form">
+            <label for="year-of-birth">Enter your year of birth:</label>
+            <input type="text" id="year-of-birth" name="year-of-birth" required>
+            <button id="btn" type="submit">Check</button>
+        </form>
+        <div id="result1"></div>
+    </section>
+    <section class="section1 color4">
+        <form id="course-form">
+            <label for="course-name">Course Name:</label>
+            <input type="text" id="course-name" name="course-name" required>
+          
+            <label for="course-code">Course Code:</label>
+            <input type="text" id="course-code" name="course-code" required>
+          
+            <label for="instructor">Instructor:</label>
+            <input type="text" id="instructor" name="instructor" required>
+          
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" name="start-date" required>
+          
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" name="end-date" required>
+          
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section class="section1 color5">
+        <h1>Reverse a String</h1>
+        <div class="container">
+            <label for="inputString">Enter a string to reverse:</label>
+            <input type="text" id="inputString" name="inputString" required>
+            <button onclick="reverseString()">Reverse</button>
+            <p id="output1"></p>
+          </div>
+    </section>
+    <section class="section1 color6">
+        <h1>Convert a string</h1>
+        <div class="container">
+            <label for="inputString">Enter a string to convert :</label>
+            <input type="text" id="inputString2" name="inputString" required>
+            <button onclick="convertString()">Convert</button>
+            <p id="output2"></p>
+          </div>
+    </section>
+    <section></section>
+    <div class="text-center">
+        <button onclick="returnTop()" class="block magenta margin-auto" id="myBtn" title="Go to top">Top</button>
+    </div>
+    <script src="scipt2.js"></script> 
+    
+</body>
+</html>
